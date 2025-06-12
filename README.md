@@ -26,14 +26,14 @@ int mover_disco(Torre *origem, Torre *destino) {          // Linha 95
     if (torre_vazia(origem)) return 0;                    // Chama torre_vazia() na linha 41
     
     Disco topo_origem = ver_topo(origem);                 // Chama ver_topo() na linha 60
-    Disco topo_destino = ver_topo(destino);               //  99
+    Disco topo_destino = ver_topo(destino);               // linha 99
     
-    if (!torre_vazia(destino) &&                          //  101
+    if (!torre_vazia(destino) &&                          // linha 101
         topo_origem.tamanho > topo_destino.tamanho) {
         return 0;
     }
     
-    empilhar(destino, desempilhar(origem));               //  104
+    empilhar(destino, desempilhar(origem));               // linha 104
     return 1;
 }
 
