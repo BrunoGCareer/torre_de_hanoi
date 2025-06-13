@@ -1,7 +1,7 @@
 TORRE DE HANOI - ANÁLISE TÉCNICA COM LOCALIZAÇÃO DAS FUNÇÕES
 
 -----------------------------------------------------------
-1. inicializar_jogo() - s 63-72
+1. inicializar_jogo() - Linhas 63-72
 -----------------------------------------------------------
 void inicializar_jogo(Torre *torres[], int num_discos) {
     for (int i = 0; i < 3; i++) {                         // Linha 63
